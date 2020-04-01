@@ -11,3 +11,7 @@ tekton:
 dex:
   certs:
     newApi: true
+
+service:
+  annotations:
+    fabric8.io/expose: "false"

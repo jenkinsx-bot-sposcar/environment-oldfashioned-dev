@@ -19,6 +19,10 @@ chartmuseum:
     secret:
       BASIC_AUTH_USER: "{{ .Parameters.adminUser.username }}"
       BASIC_AUTH_PASS: "{{ .Parameters.adminUser.password }}"
+      
+  service:
+  annotations:
+    fabric8.io/expose: "false"
 {{- end }}
 
 nexus:
