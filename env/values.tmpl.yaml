@@ -12,6 +12,7 @@ dex:
   certs:
     newApi: true
 
-service:
-  annotations:
-    fabric8.io/expose: "false"
+chartmuseum:
+  service:
+    annotations:
+      fabric8.io/expose: "false"
