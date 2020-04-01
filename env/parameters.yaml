@@ -1,0 +1,10 @@
+adminUser:
+  password: local:oldfashioned/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsxio@gmail.com
+  token: local:oldfashioned/pipelineUser:token
+  username: jenkinsx-bot-sposcar
+prow:
+  hmacToken: local:oldfashioned/prow:hmacToken
