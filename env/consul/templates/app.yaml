@@ -1,0 +1,14 @@
+apiVersion: jenkins.io/v1
+kind: App
+metadata:
+  annotations:
+    jenkins.io/chart-description: Highly available and distributed service discovery
+      and key-value store designed with support for the modern data center to make
+      distributed systems and configuration easy.
+    jenkins.io/chart-repository: https://kubernetes-charts.storage.googleapis.com
+  creationTimestamp: null
+  labels:
+    jenkins.io/app-name: consul
+    jenkins.io/app-version: 3.9.5
+  name: consul
+spec: {}
