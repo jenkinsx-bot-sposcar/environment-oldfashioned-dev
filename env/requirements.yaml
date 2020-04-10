@@ -18,6 +18,7 @@ dependencies:
   repository: http://chartmuseum.jenkins-x.io
 - name: jenkins-x-platform
   repository: http://chartmuseum.jenkins-x.io
-#- condition: chartmuseum.enabled
-#  name: chartmuseum
-#  repository: http://chartmuseum.jenkins-x.io
+- alias: consul
+  name: consul
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 3.9.5
