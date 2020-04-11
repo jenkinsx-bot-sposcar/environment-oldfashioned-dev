@@ -125,7 +125,7 @@ ConsulConfig: []
 
 ## Create an Ingress for the Web UI
 uiIngress:
-  enabled: true
+  enabled: false
   annotations: {}
   labels: {}
   hosts: []
