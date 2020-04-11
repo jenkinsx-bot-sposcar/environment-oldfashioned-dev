@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: jenkins-oscar
+    provider: github
+    repository: skiapp
+  name: jenkins-oscar-skiapp
+spec:
+  description: Imported application for jenkins-oscar/skiapp
+  httpCloneURL: https://github.com/jenkins-oscar/skiapp.git
+  org: jenkins-oscar
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: skiapp
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/jenkins-oscar/skiapp.git
