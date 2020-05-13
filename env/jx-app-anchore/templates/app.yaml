@@ -2,12 +2,12 @@ apiVersion: jenkins.io/v1
 kind: App
 metadata:
   annotations:
-    jenkins.io/chart-description: Secure your Jenkins X pipeline using Anchore
-    jenkins.io/chart-repository: http://chartmuseum-jx.35.197.97.96.nip.io
+    jenkins.io/chart-description: The Anchore App for Jenkins X
+    jenkins.io/chart-repository: http://chartmuseum.jenkins-x.io
   creationTimestamp: null
   labels:
-    chart: jx-app-anchore-1.0.0
+    chart: jx-app-anchore-0.0.4
     jenkins.io/app-name: jx-app-anchore
-    jenkins.io/app-version: 1.0.0
+    jenkins.io/app-version: 0.0.4
   name: jx-app-anchore-jx-app-anchore
 spec: {}
