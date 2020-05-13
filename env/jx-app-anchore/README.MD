@@ -2,9 +2,9 @@
 
 |App Metadata||
 |---|---|
-| **Version** | 1.0.0 |
-| **Description** | Secure your Jenkins X pipeline using Anchore |
-| **Chart Repository** | http://chartmuseum-jx.35.197.97.96.nip.io |
+| **Version** | 0.0.4 |
+| **Description** | The Anchore App for Jenkins X |
+| **Chart Repository** | http://chartmuseum.jenkins-x.io |
 
 ## App README.MD
 
@@ -15,3 +15,6 @@ The chart for the Anchore application for Jenkins X.
 ## What's in the chart?
 
 The chart wraps the Anchore chart, and adds the App custom resource.
+
+## How to Use 
+[coming soon]
