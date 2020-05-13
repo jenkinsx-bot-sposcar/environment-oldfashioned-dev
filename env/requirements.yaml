@@ -22,6 +22,3 @@ dependencies:
   name: consul
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 3.9.5
-- name: jx-app-anchore
-  repository: http://chartmuseum-jx.35.197.97.96.nip.io
-  version: 1.0.0
